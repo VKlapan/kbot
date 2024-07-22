@@ -1,4 +1,4 @@
-FROM quay.io/projectquay/golang:1.20 AS builder
+FROM golang:1.22.5 AS builder
 
 ARG GOOS
 ARG GOARCH
